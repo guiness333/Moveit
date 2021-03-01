@@ -1,0 +1,33 @@
+.container {
+  color: var(--white);
+}
+
+.container h2 {
+  margin: 0 0 2rem 0;
+}
+
+.container img {
+  width: 1.8rem;
+  height: 1.8rem;
+  margin-right: 1.2rem;
+}
+
+.text {
+  display: flex;
+  flex-direction: row;
+  max-width: 16rem;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.container input {
+  background-image: linear-gradient(to right, var(--blue-dark),var(--blue));
+  padding: 1rem;
+  border: 0;
+  color: var(--white);
+  border-radius: 0.3rem 0 0  0.3rem;
+}
+
+.container input:focus {
+    outline: 0;
+}

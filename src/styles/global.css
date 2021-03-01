@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+::placeholder {
+  color: var(--white);
+  opacity: 1;
+}
+
 :root {
   --white: #fff;
   --background: #f2f3f5;
