@@ -7,7 +7,7 @@ export default function Login() {
   return (
     <div className={styles.container}>
       <section>
-        <h1>LOGO</h1>
+        <img src='/icons/backLogo.svg' width='600rem'></img>
       </section>
       <section>
         <Logo />
